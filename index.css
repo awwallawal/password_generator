@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+
+@font-face{
+    src: url('./fonts/Karla-ExtraBold.ttf');
+    font-family: KarlaExtraBold;
+}
+
+@font-face{
+    src: url('./fonts/Inter-Regular.ttf');
+    font-family: interNormal;
+}
+
+@font-face{
+    src: url('./fonts/Inter-Medium.ttf');
+    font-family: interMedium;
+}
+
+body{
+    background: #1F2937;
+}
+
+.container{
+    margin: 30px auto auto auto;
+    width: 550px;
+    height: 350px;
+    padding: 6px;
+}
+
+/* .dotted-lines{
+    border: 1px dotted yellow;
+} */
+
+.title-container{
+    margin-top: 10px;
+}
+
+.main-title{
+    font-family: KarlaExtraBold;
+    color: #FFFFFF;
+}
+
+.sub-title{
+    font-family: KarlaExtraBold;
+    color: #4ADF86;
+}
+
+.subHeading-container{
+    margin: 30px 0px;
+}
+
+.title-subHeading{
+    font-family: interNormal;
+    color: #FFFFFF;
+}
+
+.btn-container{
+    margin:30px 0;
+    
+}
+
+.btn-passwords{
+    background: #10B981;
+    color: #FFFFFF;
+    font-family: interMedium;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.line-container{
+    margin: 10px auto;
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: #2F3E53;
+}
+
+.input-container{
+    margin: 30px 0;
+}
+
+#passwordOne-input{
+    background: #273549;
+    color: #55F991;
+    margin-right: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+#passwordOne-input:hover, #passwordTwo-input:hover{
+    background: white;
+    color:purple;
+}
+
+#passwordTwo-input{
+    background: #273549;
+    color: #55F991;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
